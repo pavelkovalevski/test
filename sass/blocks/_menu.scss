@@ -1,0 +1,32 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFFFFF;
+        transition: 0.4s all;
+        &:hover {
+            color: #43ABF0;
+        }
+    }
+}
+
+.hamburger {
+    &__item {
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-bottom: 6px;
+        background-color: #FFFFFF;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
